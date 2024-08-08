@@ -9,9 +9,6 @@
 #include <QMap>
 #include <QString>
 #include <functional>
-#include "signalGeneration.h"
-#include "windowing.h"
-#include "MainWindow.h"
 
 QT_CHARTS_USE_NAMESPACE
 
