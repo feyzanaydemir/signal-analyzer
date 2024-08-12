@@ -11,7 +11,7 @@
 
 
 ////////////////////////////////////////////////////////
-// Public Function Defitinitons
+// Public Function Definitions
 ////////////////////////////////////////////////////////
 void Signal::generate(void) {   
     series = (signalGenFuncs[signalType])(this);
@@ -26,7 +26,7 @@ void Signal::generate(void) {
 
 
 ////////////////////////////////////////////////////////
-// Private Function Defitinitons
+// Private Function Definitions
 ////////////////////////////////////////////////////////
 QLineSeries *Signal::computeFFT(QLineSeries* series) {
     QVector<double> freqData, magnitudeData;
