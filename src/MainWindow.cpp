@@ -281,7 +281,8 @@ void MainWindow::OnGenerateButtonClicked() {
 int main(int argc, char *argv[]) {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
-    
+    app.setWindowIcon(QIcon(":/icon.ico"));
+
     MainWindow window;
     window.show();
     return app.exec();
