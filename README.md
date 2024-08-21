@@ -1,10 +1,11 @@
 # Signal Analyzer
 
-<figure float="left" align="middle">
-  <img src="icon.png" width="200" />
-</figure>
+<p align="center">
+  <img src="icon.png" width="250" />
+</p>
 
 ## Overview
+
 Signal Analyzer is a C++ application built with Qt that allows users to generate and analyze various types of signals. It includes features such as waveform generation, windowing functions, and Fast Fourier Transform (FFT) analysis. The application provides a GUI where users can interactively select signal types, specify parameters, and visualize the signals and their frequency spectrum.
 
 ### **Features**
@@ -13,11 +14,11 @@ Signal Analyzer is a C++ application built with Qt that allows users to generate
   - **FFT Analysis**: Perform FFT analysis on the generated signals to visualize the frequency spectrum
   - **Interactive GUI**: The application includes a user-friendly interface built with Qt
 
-<figure float="left" align="middle" marginTop="10">
-  <img src="p1.png" width="48%" />
-  <img src="p2.png" width="48%" /> 
-  <figcaption>Example Screenshots</figcaption>
-</figure>
+<br/>
+<p align="center">
+  <img src="p1.png" width="48%" /> <img src="p2.png" width="48%" /> 
+  <span align="center"> Example Screenshots </span>
+</p>
 
 ## Installation
 
