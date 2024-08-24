@@ -14,14 +14,14 @@ Signal Analyzer is a C++ application built with Qt that allows users to generate
 
 <br/>
 <p align="center">
-  <img src="p1.png" width="48%" /> <img src="p2.png" width="48%" /> 
+  <img src="screenshot1.png" width="48%" /> <img src="screenshot2.png" width="48%" /> 
   <span align="center"> Example Screenshots </span>
 </p>
 
 ## Installation
 
 > [!NOTE]
-> The application is distributed as an AppImage for Linux! You can [download the latest version](https://github.com/feyzanaydemir/signal-analyzer/releases/tag/1.0.0).
+> The application is distributed as an AppImage for Linux! You can [download the latest version](https://github.com/feyzanaydemir/signal-analyzer/releases/tag/v1.0.0).
 <br/>
 
 To build and run this project on Linux, you need to have Qt 5.12.8 or higher installed, along with a C++17 compatible compiler and the FFTW3 library. Ensure you have the following packages installed:
