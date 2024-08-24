@@ -234,7 +234,7 @@ void MainWindow::OnPlotSelectionChanged(const QString &text) {
     } else if (text == "Original Signal FFT") {
         PlotSignal(signalMap[currSignalName]->signalType + " FFT Spectrum", signalMap[currSignalName]->fftSeries, true);
     } else if (text == "Windowed Signal") {
-        PlotSignal(signalMap[currSignalName]->signalType + " - " + signalMap[currSignalName]->windowType + " Window", signalMap[currSignalName]->windowedSeries, true);
+        PlotSignal(signalMap[currSignalName]->signalType + " - " + signalMap[currSignalName]->windowType + " Window", signalMap[currSignalName]->windowedSeries, false);
     } else if (text == "Windowed Signal FFT") {
         PlotSignal(signalMap[currSignalName]->signalType + " - " + signalMap[currSignalName]->windowType + " Window FFT Spectrum", signalMap[currSignalName]->windowedFFTSeries, true);
     }

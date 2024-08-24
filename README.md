@@ -1,8 +1,6 @@
 # Signal Analyzer
 
-<p align="center">
-  <img src="icon.png" width="250" />
-</p>
+<p align="center"><img src="icon.png" width="250"/></p>
 
 ## Overview
 
@@ -22,9 +20,11 @@ Signal Analyzer is a C++ application built with Qt that allows users to generate
 
 ## Installation
 
-To build and run this project, you need to have Qt 5.12.8 or higher installed, along with a C++17 compatible compiler, such as GCC, and the FFTW3 library. 
+> [!NOTE]
+> The application is distributed as an AppImage for Linux! You can [download the latest version](https://github.com/feyzanaydemir/signal-analyzer/releases/tag/1.0.0).
+<br/>
 
-Ensure you have the following packages installed:
+To build and run this project on Linux, you need to have Qt 5.12.8 or higher installed, along with a C++17 compatible compiler and the FFTW3 library. Ensure you have the following packages installed:
 ```bash
 sudo apt-get install qt5-default libqt5charts5-dev libfftw3-dev
 ```
@@ -35,13 +35,16 @@ git clone https://github.com/feyzanaydemir/signal-analyzer.git
 cd signal-analyzer
 ```
 
-Build and run the application:
+Build the application:
 ```bash
-qmake
-make
+qmake && make
+```
+
+Run the application:
+```bash
 ./build/bin/signal-analyzer
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
